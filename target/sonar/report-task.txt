@@ -1,0 +1,6 @@
+projectKey=fr.istic.m1.sir:tp1
+serverUrl=http://localhost:9000
+serverVersion=8.6.0.39681
+dashboardUrl=http://localhost:9000/dashboard?id=fr.istic.m1.sir%3Atp1
+ceTaskId=AXdEcu6ci94yiOIEaUSD
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXdEcu6ci94yiOIEaUSD

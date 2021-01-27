@@ -12,6 +12,12 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  <scm>
+    <connection>scm:git@github.com:ahenrij/univ-rennes1-m1miage-sir-tp1.git</connection>
+    <developerConnection>scm:git@github.com:ahenrij/univ-rennes1-m1miage-sir-tp1.git</developerConnection>
+    <url>https://github.com/ahenrij/univ-rennes1-m1miage-sir-tp1</url>
+  </scm>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -109,7 +115,10 @@
         <artifactId>maven-pmd-plugin</artifactId>
         <version>3.14.0</version>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-changelog-plugin</artifactId>
+      </plugin>
     </plugins>
   </reporting>
-
 </project>
