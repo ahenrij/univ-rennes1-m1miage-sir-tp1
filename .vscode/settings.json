@@ -1,0 +1,9 @@
+{
+    "java.configuration.runtimes": [
+        {
+          "name": "Java 11",
+          "path": "/usr/lib/jvm/java-11-openjdk-amd64",
+        }
+    ],
+    "jupyter.jupyterServerType": "local"
+}
